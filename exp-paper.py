@@ -44,7 +44,7 @@ for image in pic_ims:
     pic_list.append(image)
 random.shuffle(pic_list)
 
-Word_list = ['幽雅','无私','正义','端庄','学叔','富丽','苦闷','郁闷','自卑','偏见','新颖','天使','虚伪','乞丐','疾病','宽厚','高贵','焦躁','疲倦','细菌','雅致','坦诚','压力','精品','懒惰']
+Word_list = ['幽雅','无私','正义','端庄','富丽','苦闷','郁闷','自卑','偏见','新颖','天使','虚伪','乞丐','疾病','宽厚','高贵','焦躁','疲倦','细菌','雅致','坦诚','压力','精品','懒惰']
 random.shuffle(Word_list)
 
 
@@ -81,7 +81,7 @@ for j,i in zip(pic_list,Word_list):
     core.wait(1.5)
 
 # 结束语
-text_3 = visual.TextStim(win, text=u'实验结束，感谢「学叔」的参与。', pos=(0.0, 0.0), wrapWidth=1.0, color='white', height=48, font='Hei')
+text_3 = visual.TextStim(win, text=u'实验结束，感谢您的参与。', pos=(0.0, 0.0), wrapWidth=1.0, color='white', height=48, font='Hei')
 text_3.draw()
 win.flip()
 core.wait(3)
